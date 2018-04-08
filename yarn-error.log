@@ -1,0 +1,40 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js install -s express mongodb mongoose
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  6.11.4
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "sunday_hack",
+    "version": "1.0.0",
+    "description": "Manage your wishlists!",
+    "main": "index.js",
+    "repository": "git@github.com:martintdp/sunday_hack.git",
+    "author": "Martin Toledo Do Pazo <martin.d.toledo@gmail.com>",
+    "license": "UNLICENSED"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: `install` has been replaced with `add` to add new dependencies. Run "yarn add express mongodb mongoose" instead.
+      at MessageError.Error (native)
+      at new MessageError (/usr/share/yarn/lib/cli.js:186:110)
+      at Object.<anonymous> (/usr/share/yarn/lib/cli.js:21987:13)
+      at next (native)
+      at step (/usr/share/yarn/lib/cli.js:98:30)
+      at /usr/share/yarn/lib/cli.js:109:13
